@@ -12,6 +12,8 @@ Install this plugin and open any .sql file, choose
 
 * PROCEDURES are now detected and found with goto symbol
 * DECLARE varname AND SELECT ... INTO are now highlighted
+* IF, THEN, END IF
+* UNSIGNED, AUTO_INCREMENT
 
 ## License
 

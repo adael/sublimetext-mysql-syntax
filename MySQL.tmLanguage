@@ -369,6 +369,24 @@
 			<key>name</key>
 			<string>meta.create.sql</string>
 		</dict>
+
+		<!-- unsigned autoincrement -->
+		<dict>
+			<key>match</key>
+			<string>(?i:\b(unsigned|auto_increment)\b)</string>
+			<key>name</key>
+			<string>storage.type.sql</string>
+		</dict>
+
+		<!-- CALL, END -->
+		<dict>
+			<key>match</key>
+			<string>(?i:\b(call|end)\b)</string>
+			<key>name</key>
+			<string>keyword.other.LUW.sql</string>
+		</dict>
+
+		<!-- SELECT ... INTO -->
 		<dict>
 			<key>captures</key>
 			<dict>
@@ -387,6 +405,20 @@
 			<string>(?i:^\s*(into)\s+((?:\w+)(?:\,\s+)?)+)</string>
 			<key>name</key>
 			<string>meta.create.sql</string>
+		</dict>
+
+		<!-- IF THEN END IF; -->
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.modifier.sql</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(?i:\b(if|then|end if)\b)</string>
 		</dict>
 
 		<dict>
