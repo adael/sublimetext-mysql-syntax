@@ -4,7 +4,9 @@ Package created from base SQL package to improve syntax for MySQL especifically.
 
 ## Install
 
-Install this plugin and open any .sql file, choose Menu >> View >> Syntax >> Open all with current extension as... >> MySQL
+Install this plugin and open any .sql file, choose
+
+    Menu >> View >> Syntax >> Open all with current extension as... >> MySQL
 
 ## Changes
 
