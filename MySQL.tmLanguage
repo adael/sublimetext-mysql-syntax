@@ -323,7 +323,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(CONCATENATE|CONVERT|LOWER|SUBSTRING|TRANSLATE|TRIM|UPPER)\b</string>
+			<string>(?i)\b(DELIMITER|CONCATENATE|CONVERT|LOWER|SUBSTRING|TRANSLATE|TRIM|UPPER)\b</string>
 			<key>name</key>
 			<string>support.function.string.sql</string>
 		</dict>
@@ -381,7 +381,7 @@
 		<!-- CALL, END -->
 		<dict>
 			<key>match</key>
-			<string>(?i:\b(call|end)\b)</string>
+			<string>(?i:\b(call|end|FOR EACH ROW)\b)</string>
 			<key>name</key>
 			<string>keyword.other.LUW.sql</string>
 		</dict>
