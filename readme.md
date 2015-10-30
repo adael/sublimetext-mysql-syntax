@@ -11,6 +11,7 @@ Install this plugin and open any .sql file, choose
 ## Changes
 
 * PROCEDURES are now detected and found with goto symbol
+* DECLARE varname AND SELECT ... INTO are now highlighted
 
 ## License
 
