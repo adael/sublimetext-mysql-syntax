@@ -383,7 +383,7 @@
 			<string>meta.create.sql</string>
 		</dict>
 
-		<!-- IF THEN ELSEIF END IF; -->
+		<!-- IF THEN ELSE IF ELSE END IF; -->
 		<dict>
 			<key>captures</key>
 			<dict>
@@ -394,7 +394,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?i:\b(if|then|elseif|end if)\b)</string>
+			<string>(?i:\b(if|then|else if|else|end if)\b)</string>
 		</dict>
 
 		<dict>
