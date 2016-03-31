@@ -394,7 +394,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?i:\b(if|then|else if|else|end if)\b)</string>
+			<string>(?i:\b(if|then|elseif|else|end if)\b)</string>
 		</dict>
 
 		<dict>
